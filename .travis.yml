@@ -22,7 +22,7 @@ after_success:
 
   # NOTIFICATION_SERVICE
   - export NOTIFICATION_SERVICE=afermon/piggymetrics-notification-service
-  - docker build -t $NOTIFICATION_SERVICE:$COMMIT ./notification-service
+  - docker build -t $NOTIFICATION_SERVICE:$COMMIT .
   - docker tag $NOTIFICATION_SERVICE:$COMMIT $NOTIFICATION_SERVICE:$TAG
   - docker push $NOTIFICATION_SERVICE
   
