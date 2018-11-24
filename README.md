@@ -11,5 +11,6 @@ PUT	| /notifications/settings/current	| Save current account notification settin
 
 For more information please refer to the main repository [afermon/PiggyMetrics-Kubernetes](https://github.com/afermon/PiggyMetrics-Kubernetes)
 
-## Refereces
+## Credits
+
 * Forked from [sqshq/PiggyMetrics](https://github.com/sqshq/PiggyMetrics)
